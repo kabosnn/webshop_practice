@@ -1,0 +1,26 @@
+[
+  {
+    username: string,
+    password: string (lehet titkositva lehet nem),
+    email: string,
+    phone number: number,
+    delivery details:
+                    {
+                        postalCode:number,
+                        city:string,
+                        address: string
+                    }
+  },
+  {
+    username: valaki123,
+    password: jelszo123* (lehet titkositva lehet nem),
+    email: valamimail@gmail.com,
+    phone number: 06301919199,
+    delivery details:
+                    {
+                        postalCode:5600,
+                        city:Békéscsaba,
+                        address: valamiutca 22
+                    }
+  }
+]
