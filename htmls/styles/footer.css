@@ -1,0 +1,34 @@
+footer {
+	padding: 1em 0em;
+	background-color: #ececec;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+}
+
+footer h2 {
+	margin: 25px;
+	font-size: 2.5em;
+	letter-spacing: 0.2em;
+}
+
+footer div h3 {
+	position: relative;
+}
+
+footer div h3::before {
+	content: "";
+	position: absolute;
+	right: 10%;
+	bottom: 50%;
+	width: 25%;
+	border-bottom: 1px solid black;
+}
+
+footer div h3::after {
+	content: "";
+	position: absolute;
+	left: 10%;
+	bottom: 50%;
+	width: 25%;
+	border-bottom: 1px solid black;
+}
