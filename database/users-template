@@ -1,0 +1,49 @@
+[
+  {
+    id: number,
+    username: string,
+    password: string (lehet titkositva lehet nem),
+    email: string,
+    phone number: number,
+    delivery details:
+                    {
+                        postalCode:number,
+                        city:string,
+                        address: string
+                    },
+    previousOrders: [
+      {
+        id:number,
+        products: [
+          {name:amount (-> string: number)},
+          {name:amount (-> string: number)},
+        ]
+        sum: number,
+        orderDate: string
+      }
+    ]
+  },
+  {
+    username: valaki123,
+    password: jelszo123* (lehet titkositva lehet nem),
+    email: valamimail@gmail.com,
+    phone number: 06301919199,
+    delivery details:
+                    {
+                        postalCode:5600,
+                        city:Békéscsaba,
+                        address: valamiutca 22
+                    },
+    previousOrders: [
+    {
+      id:0,
+      products: [
+        {fakeáru1: 2 (-> string: number)},
+        {fakeárú3: 4 (-> string: number)},
+      ]
+      sum: 12000,
+      orderDate: 2024.10.26 10:25 (valami ilyesmi)
+    }
+  ]
+  }
+]
